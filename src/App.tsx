@@ -38,7 +38,7 @@ import {
   MessagesSquare,
   Pill
 } from 'lucide-react';
-import { motion, AnimatePresence } from 'motion/react';
+import { motion, AnimatePresence } from 'framer-motion';
 
 type View = 'home' | 'saude' | 'remedios' | 'homecare' | 'mensagens' | 'shop' | 'avisos' | 'configuracoes' | 'perfil';
 
