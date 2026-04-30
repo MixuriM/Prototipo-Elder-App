@@ -3,7 +3,6 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
-  plugins: [tailwindcss()],
-  plugins: [react()],
+  plugins: [react()], [tailwindcss()],
   base: '/Prototipo-Elder-App'
 })
